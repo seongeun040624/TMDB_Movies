@@ -1,0 +1,74 @@
+.upCommingDetail{
+    margin-top: 150px;
+
+    h2{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .loading{
+        text-align: center;
+
+        p{}
+    }
+    .upCommingDetailData{
+        width: 80%;
+        margin: 0 auto;
+        box-shadow: 0 0 20px #414141;
+        padding: 50px;
+
+        .detailImgBox{
+            display: flex;
+            justify-content: center;
+
+            img{}
+        }
+        .detailTextBox{
+            line-height: 170%;
+            margin-top: 50px;
+
+            .textBoxTitle{
+                font-size: 20px;
+                margin-bottom: 5px;
+                font-weight: bold;
+            }
+            .textBoxOriginal{
+                font-size: 14px;
+                color: #333;
+                margin-bottom: 20px;
+            }
+            .textBoxTagline{
+                margin-bottom: 10px;
+                font-weight: 600;
+                color: #222;
+            }
+            .textBoxOverview{
+                margin-bottom: 20px;
+            }
+            .textBoxDate{}
+            .textBoxAverage{}
+            .textBoxCount{}
+            .textBoxPopularity{}
+            .textBoxStatus{}
+            .textBoxRuntime{}
+            .textBoxCompany{
+                display: flex;
+                >span{margin-right: 5px;}
+                >div{
+                    display: flex;
+                    flex-direction: column;
+                    >span.produnction{}
+                }
+            }
+            .textBoxGenres{
+                display: flex;
+                >span{}
+                >div{
+                    >span.genres{
+                        margin-left: 5px;
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+}
